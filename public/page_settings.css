@@ -1,0 +1,20 @@
+.box_container{
+    padding: 8px;
+}
+
+.center_box {
+    text-align: center;
+}
+.qrCode_image {
+    width: 25%;
+    height: 25%;
+    margin: 10px 0;
+}
+
+.twoFa_verify_data {
+    padding: 10px;
+}
+
+.input_field {
+    height: 2.5rem;
+}
