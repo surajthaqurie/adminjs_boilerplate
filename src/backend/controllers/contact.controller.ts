@@ -21,7 +21,7 @@ const sendMessage = async (req: Request, res: Response, next: NextFunction) => {
     body: getHtmlBody(
       value,
       process.env.APP_NAME as string,
-      process.env.SENDGRID_SENDER_EMAIL as string
+      ("support@" + process.env.SENDGRID_SENDER_EMAIL) as string
     )
   };
 
